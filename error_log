@@ -1,0 +1,24 @@
+[26-Aug-2022 19:58:04 Asia/Tehran] PHP Warning:  Uncaught ErrorException: require_once(/home/wourkico/laravel/databasemigrations2022_04_15_163793_add_purchase_token_to_upgrades_table.php): failed to open stream: No such file or directory in /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/wourkico/...', 109, Array)
+#1 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require_once()
+#2 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(482): Illuminate\Filesystem\Filesystem->requireOnce('/home/wourkico/...')
+#3 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(104): Illuminate\Database\Migrations\Migrator->requireFiles(Array)
+#4 /home/wourkico/laravel/vendor/laravel/framework/src/ in /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 109
+[26-Aug-2022 19:58:04 Asia/Tehran] PHP Fatal error:  Illuminate\Filesystem\Filesystem::requireOnce(): Failed opening required '/home/wourkico/laravel/databasemigrations2022_04_15_163793_add_purchase_token_to_upgrades_table.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 109
+[31-Aug-2022 16:43:14 Asia/Tehran] PHP Warning:  Uncaught ErrorException: require_once(/home/wourkico/laravel/databasemigrations2022_04_15_163794_add_some_flags_to_table.php): failed to open stream: No such file or directory in /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/wourkico/...', 109, Array)
+#1 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require_once()
+#2 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(482): Illuminate\Filesystem\Filesystem->requireOnce('/home/wourkico/...')
+#3 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(104): Illuminate\Database\Migrations\Migrator->requireFiles(Array)
+#4 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Da in /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 109
+[31-Aug-2022 16:43:14 Asia/Tehran] PHP Fatal error:  Illuminate\Filesystem\Filesystem::requireOnce(): Failed opening required '/home/wourkico/laravel/databasemigrations2022_04_15_163794_add_some_flags_to_table.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 109
+[01-Sep-2022 22:28:49 Asia/Tehran] PHP Warning:  Uncaught ErrorException: require_once(/home/wourkico/laravel/databasemigrations2022_04_15_163795_add_some_flags_to_store_table.php): failed to open stream: No such file or directory in /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/wourkico/...', 109, Array)
+#1 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require_once()
+#2 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(482): Illuminate\Filesystem\Filesystem->requireOnce('/home/wourkico/...')
+#3 /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(104): Illuminate\Database\Migrations\Migrator->requireFiles(Array)
+#4 /home/wourkico/laravel/vendor/laravel/framework/src/Illumin in /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 109
+[01-Sep-2022 22:28:49 Asia/Tehran] PHP Fatal error:  Illuminate\Filesystem\Filesystem::requireOnce(): Failed opening required '/home/wourkico/laravel/databasemigrations2022_04_15_163795_add_some_flags_to_store_table.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/wourkico/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 109

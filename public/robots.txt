@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /icon/
+Disallow: /image/
+Disallow: /img/
+Disallow: /js/
+Disallow: /admin/
